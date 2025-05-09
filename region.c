@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 int is_border_color(RGB pixel) {
-    return pixel.r < 50 && pixel.g < 50 && pixel.b < 50;
+    return pixel.r < 120 && pixel.g < 120 && pixel.b < 120;
 }
 int** allocate_region_map(int width, int height) {
     int** map = malloc(sizeof(int*) * height);
     for (int i = 0; i < height; i++) {
         map[i] = malloc(sizeof(int) * width);
         for (int j = 0; j < width; j++) {
-            map[i][j] = -1;
+            map[i][j] = -2;
         }
     }
     return map;
@@ -52,7 +52,6 @@ void flood_fill(RGB** pixels, int** map, int width, int height, int start_x, int
 
 void flood_fill_region_map(RGB** pixels, int width, int height, int** region_map) {
     int current_region = 0;
-
    
     for (int y = 0; y < height; y++) {
         for (int x = 0; x < width; x++) {
