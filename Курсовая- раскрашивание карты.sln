@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Курсовая- раскрашивание карты", "Курсовая- раскрашивание карты.vcxproj", "{C82683BF-6B3C-4DE6-848B-B844A59F845D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C82683BF-6B3C-4DE6-848B-B844A59F845D}.Debug|x64.ActiveCfg = Debug|x64
+		{C82683BF-6B3C-4DE6-848B-B844A59F845D}.Debug|x64.Build.0 = Debug|x64
+		{C82683BF-6B3C-4DE6-848B-B844A59F845D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C82683BF-6B3C-4DE6-848B-B844A59F845D}.Debug|x86.Build.0 = Debug|Win32
+		{C82683BF-6B3C-4DE6-848B-B844A59F845D}.Release|x64.ActiveCfg = Release|x64
+		{C82683BF-6B3C-4DE6-848B-B844A59F845D}.Release|x64.Build.0 = Release|x64
+		{C82683BF-6B3C-4DE6-848B-B844A59F845D}.Release|x86.ActiveCfg = Release|Win32
+		{C82683BF-6B3C-4DE6-848B-B844A59F845D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64B0D216-E648-458F-964B-148EC127B6D0}
+	EndGlobalSection
+EndGlobal
